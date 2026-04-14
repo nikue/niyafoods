@@ -16,6 +16,21 @@ const HeroSection = () => (
     style={{ background: "var(--gradient-hero)" }}
   >
     <div className="container grid md:grid-cols-2 gap-10 items-center">
+      <div className="relative flex flex-col items-center gap-6">
+        <img
+          src={heroImg}
+          alt="Chirp bitkisel yumurta karışımı ile hazırlanmış lezzetli bir kahvaltı tabağı"
+          width={1280}
+          height={960}
+          className="rounded-2xl shadow-lg object-cover w-full aspect-[4/3]"
+        />
+        <img
+          src={packageImg}
+          alt="Chirp bitkisel yumurta karışımı ambalajı"
+          className="absolute -bottom-8 -right-4 w-32 md:w-44 drop-shadow-2xl object-contain"
+        />
+      </div>
+
       <div className="space-y-6">
         <p className="text-sm font-semibold tracking-widest uppercase text-primary">
           Niya Foods
@@ -57,21 +72,6 @@ const HeroSection = () => (
             Satış Noktaları
           </a>
         </div>
-      </div>
-
-      <div className="relative flex flex-col items-center gap-6">
-        <img
-          src={heroImg}
-          alt="Chirp bitkisel yumurta karışımı ile hazırlanmış lezzetli bir kahvaltı tabağı"
-          width={1280}
-          height={960}
-          className="rounded-2xl shadow-lg object-cover w-full aspect-[4/3]"
-        />
-        <img
-          src={packageImg}
-          alt="Chirp bitkisel yumurta karışımı ambalajı"
-          className="absolute -bottom-8 -right-4 w-32 md:w-44 drop-shadow-2xl object-contain"
-        />
       </div>
     </div>
   </section>
