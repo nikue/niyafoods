@@ -38,12 +38,7 @@ const SocialSection = () => (
             className="w-12 h-12 rounded-full bg-accent flex items-center justify-center text-foreground hover:bg-primary hover:text-primary-foreground transition-colors"
             aria-label={s.label}
           >
-            {typeof s.icon === "function" && s.icon.toString().includes("svg") ? (
-              <s.icon />
-            ) : (
-              // @ts-ignore
-              <s.icon size={20} />
-            )}
+            <s.icon />
           </a>
         ))}
       </div>
