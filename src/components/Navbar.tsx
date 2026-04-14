@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import logo from "@/assets/niya-logo.svg";
 
 const navLinks = [
   { label: "Ürün", href: "#urun" },
@@ -16,8 +17,8 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b">
       <div className="container flex items-center justify-between h-16">
-        <a href="#" className="font-heading text-2xl text-foreground">
-          Niya Foods
+        <a href="https://www.niyafoods.com" target="_blank" rel="noopener noreferrer">
+          <img src={logo} alt="Niya Foods" className="h-8" />
         </a>
 
         {/* Desktop */}
