@@ -61,17 +61,13 @@ const SalesSection = () => (
                 href={r.link}
                 target={r.link.startsWith("http") ? "_blank" : undefined}
                 rel={r.link.startsWith("http") ? "noopener noreferrer" : undefined}
-                className="flex items-center justify-between p-4 rounded-lg bg-card border hover:shadow-md transition-shadow"
+                className="flex items-center justify-center p-4 rounded-lg bg-card border hover:shadow-md transition-shadow"
               >
-                <div className="flex items-center gap-4">
-                  {r.logo && (
-                    <img src={r.logo} alt={r.name} className="h-8 w-auto object-contain" loading="lazy" />
-                  )}
-                  <div>
-                    <p className="font-medium text-foreground">{r.name}</p>
-                    <p className="text-xs text-muted-foreground">{r.address}</p>
-                  </div>
-                </div>
+                {r.logo ? (
+                  <img src={r.logo} alt={r.name} className="h-10 w-auto object-contain" loading="lazy" />
+                ) : (
+                  <p className="font-medium text-muted-foreground">{r.name}</p>
+                )}
               </a>
             ))}
           </div>
