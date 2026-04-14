@@ -1,9 +1,10 @@
 import { ShoppingBag, Store, Utensils } from "lucide-react";
+import veganIstasyonLogo from "@/assets/vegan-istasyon-logo.png";
 
 const retailers = [
-  { name: "Yakında eklenecek", address: "—", link: "#" },
-  { name: "Yakında eklenecek", address: "—", link: "#" },
-  { name: "Yakında eklenecek", address: "—", link: "#" },
+  { name: "Vegan İstasyon", address: "veganistasyon.com", link: "https://veganistasyon.com", logo: veganIstasyonLogo },
+  { name: "Yakında eklenecek", address: "—", link: "#", logo: null },
+  { name: "Yakında eklenecek", address: "—", link: "#", logo: null },
 ];
 
 const restaurants = [
@@ -58,11 +59,18 @@ const SalesSection = () => (
               <a
                 key={i}
                 href={r.link}
+                target={r.link.startsWith("http") ? "_blank" : undefined}
+                rel={r.link.startsWith("http") ? "noopener noreferrer" : undefined}
                 className="flex items-center justify-between p-4 rounded-lg bg-card border hover:shadow-md transition-shadow"
               >
-                <div>
-                  <p className="font-medium text-foreground">{r.name}</p>
-                  <p className="text-xs text-muted-foreground">{r.address}</p>
+                <div className="flex items-center gap-4">
+                  {r.logo && (
+                    <img src={r.logo} alt={r.name} className="h-8 w-auto object-contain" loading="lazy" />
+                  )}
+                  <div>
+                    <p className="font-medium text-foreground">{r.name}</p>
+                    <p className="text-xs text-muted-foreground">{r.address}</p>
+                  </div>
                 </div>
               </a>
             ))}
