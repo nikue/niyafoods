@@ -59,13 +59,18 @@ const HeroSection = () => (
         </div>
       </div>
 
-      <div className="relative flex items-center justify-center">
+      <div className="relative flex flex-col items-center gap-6">
+        <img
+          src={heroImg}
+          alt="Chirp bitkisel yumurta karışımı ile hazırlanmış lezzetli bir kahvaltı tabağı"
+          width={1280}
+          height={960}
+          className="rounded-2xl shadow-lg object-cover w-full aspect-[4/3]"
+        />
         <img
           src={packageImg}
           alt="Chirp bitkisel yumurta karışımı ambalajı"
-          width={600}
-          height={800}
-          className="drop-shadow-2xl object-contain w-full max-w-sm md:max-w-md aspect-[3/4]"
+          className="absolute -bottom-8 -right-4 w-32 md:w-44 drop-shadow-2xl object-contain"
         />
       </div>
     </div>
