@@ -1,4 +1,5 @@
 import heroImg from "@/assets/hero-food.jpg";
+import packageImg from "@/assets/chirp-package.png";
 import { Leaf, Clock, Package, MapPin } from "lucide-react";
 
 const badges = [
