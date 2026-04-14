@@ -32,9 +32,6 @@ const HeroSection = () => (
       </div>
 
       <div className="space-y-6">
-        <p className="text-sm font-semibold tracking-widest uppercase text-primary">
-          Niya Foods
-        </p>
         <h1 className="text-4xl md:text-5xl lg:text-6xl leading-tight text-foreground">
           Chirp
         </h1>
