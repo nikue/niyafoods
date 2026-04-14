@@ -64,7 +64,7 @@ const SalesSection = () => (
                 className="flex items-center justify-center p-4 rounded-lg bg-card border hover:shadow-md transition-shadow"
               >
                 {r.logo ? (
-                  <img src={r.logo} alt={r.name} className="h-10 w-auto object-contain" loading="lazy" />
+                  <img src={r.logo} alt={r.name} className="h-16 md:h-20 w-auto object-contain" loading="lazy" />
                 ) : (
                   <p className="font-medium text-muted-foreground">{r.name}</p>
                 )}
