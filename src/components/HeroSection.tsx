@@ -27,7 +27,7 @@ const HeroSection = () => (
         <img
           src={packageImg}
           alt="Chirp bitkisel yumurta karışımı ambalajı"
-          className="absolute -bottom-8 -right-4 w-32 md:w-44 drop-shadow-2xl object-contain"
+          className="absolute -bottom-8 -left-4 w-32 md:w-44 drop-shadow-2xl object-contain"
         />
       </div>
 
