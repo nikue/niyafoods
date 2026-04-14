@@ -1,4 +1,5 @@
 import heroImg from "@/assets/hero-food.jpg";
+import packageImg from "@/assets/chirp-package.png";
 import { Leaf, Clock, Package, MapPin } from "lucide-react";
 
 const badges = [
@@ -58,13 +59,13 @@ const HeroSection = () => (
         </div>
       </div>
 
-      <div className="relative">
+      <div className="relative flex items-center justify-center">
         <img
-          src={heroImg}
-          alt="Chirp bitkisel yumurta karışımı ile hazırlanmış lezzetli bir kahvaltı tabağı"
-          width={1280}
-          height={960}
-          className="rounded-2xl shadow-lg object-cover w-full aspect-[4/3]"
+          src={packageImg}
+          alt="Chirp bitkisel yumurta karışımı ambalajı"
+          width={600}
+          height={800}
+          className="drop-shadow-2xl object-contain w-full max-w-sm md:max-w-md aspect-[3/4]"
         />
       </div>
     </div>
