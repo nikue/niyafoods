@@ -22,7 +22,7 @@ const recipes: Recipe[] = [
     teaser: "Renkli sebzelerle hafif ve doyurucu bir bitkisel kahvaltı.",
     img: scrambleImg,
     ingredients: [
-      "3 yemek kaşığı Chirp tozu",
+      "3 yemek kaşığı (45 ml) Chirp tozu",
       "9 yemek kaşığı (135 ml) soğuk su (buzdolabından veya su sebilinden)",
       "1/2 kırmızı biber (küp doğranmış)",
       "1 avuç ıspanak",
@@ -43,7 +43,7 @@ const recipes: Recipe[] = [
     teaser: "Altın rengi, kabarık ve peynirli — klasik omletin bitkisel hali.",
     img: omletImg,
     ingredients: [
-      "4 yemek kaşığı Chirp tozu",
+      "4 yemek kaşığı (60 ml) Chirp tozu",
       "12 yemek kaşığı (180 ml) soğuk su (buzdolabından veya su sebilinden)",
       "5-6 mantar (dilimlenmiş)",
       "2 yemek kaşığı vegan peynir (rendelenmiş)",
@@ -64,7 +64,7 @@ const recipes: Recipe[] = [
     teaser: "Türk kahvaltısının vazgeçilmezi, bitkisel versiyonuyla.",
     img: menemenImg,
     ingredients: [
-      "3 yemek kaşığı Chirp tozu",
+      "3 yemek kaşığı (45 ml) Chirp tozu",
       "9 yemek kaşığı (135 ml) soğuk su (buzdolabından veya su sebilinden)",
       "2 domates (küp doğranmış)",
       "2 sivri biber (ince doğranmış)",
@@ -85,7 +85,7 @@ const recipes: Recipe[] = [
     teaser: "Baharatlı vegan sucukla buluşan klasik lezzet.",
     img: sucukluImg,
     ingredients: [
-      "3 yemek kaşığı Chirp tozu",
+      "3 yemek kaşığı (45 ml) Chirp tozu",
       "9 yemek kaşığı (135 ml) soğuk su (buzdolabından veya su sebilinden)",
       "4-5 dilim vegan sucuk",
       "1 yemek kaşığı zeytinyağı",
@@ -105,7 +105,7 @@ const recipes: Recipe[] = [
     teaser: "Brunch sofralarının yıldızı, çıtır hamurda bitkisel dolgu.",
     img: quicheImg,
     ingredients: [
-      "5 yemek kaşığı Chirp tozu",
+      "5 yemek kaşığı (75 ml) Chirp tozu",
       "15 yemek kaşığı (225 ml) soğuk su (buzdolabından veya su sebilinden)",
       "100 ml bitkisel krema",
       "1 hazır kiş hamuru",
