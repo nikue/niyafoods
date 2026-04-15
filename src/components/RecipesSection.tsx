@@ -121,6 +121,30 @@ const recipes: Recipe[] = [
       "30-35 dk altın rengi olana dek pişirin.",
     ],
   },
+  {
+    id: "frittata",
+    title: "Sebzeli Frittata",
+    teaser: "Fırında pişen, kabarık ve sebze dolu bitkisel frittata.",
+    img: frittataImg,
+    ingredients: [
+      "4 yemek kaşığı (60 ml) Chirp tozu",
+      "12 yemek kaşığı (180 ml) soğuk su (buzdolabından veya su sebilinden)",
+      "1 avuç ıspanak",
+      "6-7 cherry domates (ikiye bölünmüş)",
+      "1/2 kırmızı biber (küp doğranmış)",
+      "1/4 soğan (ince doğranmış)",
+      "2 yemek kaşığı zeytinyağı",
+      "Tuz, karabiber, kekik",
+    ],
+    steps: [
+      "Fırını 180°C'ye ısıtın.",
+      "Chirp tozunu su ile pürüzsüz olana dek çırpın.",
+      "Fırına girebilen tavada zeytinyağını kızdırıp soğan ve biberi 2 dk soteleyin.",
+      "Ispanak ve domatesleri ekleyip 1 dk daha karıştırın.",
+      "Chirp karışımını sebzelerin üzerine dökün, baharatları ekleyin.",
+      "Tavayı fırına verin, 15-20 dk kabarıp altın rengi olana dek pişirin.",
+    ],
+  },
 ];
 
 const RecipesSection = () => {
