@@ -82,12 +82,11 @@ const SalesSection = () => (
               <a
                 key={i}
                 href={r.link}
-                className="flex items-center justify-between p-4 rounded-lg bg-card border hover:shadow-md transition-shadow"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center p-4 rounded-lg bg-card border hover:shadow-md transition-shadow"
               >
-                <div>
-                  <p className="font-medium text-foreground">{r.name}</p>
-                  <p className="text-xs text-muted-foreground">{r.address}</p>
-                </div>
+                <img src={r.logo} alt={r.name} className="h-16 md:h-20 w-auto object-contain" loading="lazy" />
               </a>
             ))}
           </div>
