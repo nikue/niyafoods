@@ -23,7 +23,7 @@ const recipes: Recipe[] = [
     img: scrambleImg,
     ingredients: [
       "3 yemek kaşığı Chirp tozu",
-      "100 ml su",
+      "9 yemek kaşığı su",
       "1/2 kırmızı biber (küp doğranmış)",
       "1 avuç ıspanak",
       "4-5 mantar (dilimlenmiş)",
@@ -44,7 +44,7 @@ const recipes: Recipe[] = [
     img: omletImg,
     ingredients: [
       "4 yemek kaşığı Chirp tozu",
-      "120 ml su",
+      "12 yemek kaşığı su",
       "5-6 mantar (dilimlenmiş)",
       "2 yemek kaşığı vegan peynir (rendelenmiş)",
       "1 yemek kaşığı zeytinyağı",
@@ -65,7 +65,7 @@ const recipes: Recipe[] = [
     img: menemenImg,
     ingredients: [
       "3 yemek kaşığı Chirp tozu",
-      "80 ml su",
+      "9 yemek kaşığı su",
       "2 domates (küp doğranmış)",
       "2 sivri biber (ince doğranmış)",
       "1 soğan (ince doğranmış)",
@@ -86,7 +86,7 @@ const recipes: Recipe[] = [
     img: sucukluImg,
     ingredients: [
       "3 yemek kaşığı Chirp tozu",
-      "100 ml su",
+      "9 yemek kaşığı su",
       "4-5 dilim vegan sucuk",
       "1 yemek kaşığı zeytinyağı",
       "Pul biber, kekik",
@@ -106,7 +106,7 @@ const recipes: Recipe[] = [
     img: quicheImg,
     ingredients: [
       "5 yemek kaşığı Chirp tozu",
-      "200 ml su",
+      "15 yemek kaşığı su",
       "100 ml bitkisel krema",
       "1 hazır kiş hamuru",
       "1 avuç ıspanak, 1/2 biber, 1/4 soğan",
