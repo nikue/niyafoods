@@ -13,9 +13,7 @@ const LinkedInIcon = () => (
 );
 
 const socials = [
-  { icon: Instagram, label: "Instagram", href: "https://instagram.com/PLACEHOLDER" },
-  { icon: TikTokIcon, label: "TikTok", href: "https://tiktok.com/@PLACEHOLDER" },
-  { icon: LinkedInIcon, label: "LinkedIn", href: "https://linkedin.com/company/PLACEHOLDER" },
+  { icon: Instagram, label: "Instagram", href: "https://www.instagram.com/niyafoods_tr/" },
 ];
 
 const SocialSection = () => (

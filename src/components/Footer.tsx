@@ -29,18 +29,8 @@ const Footer = () => (
               </a>
             </li>
             <li>
-              <a href="https://instagram.com/PLACEHOLDER" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
+              <a href="https://www.instagram.com/niyafoods_tr/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
                 Instagram
-              </a>
-            </li>
-            <li>
-              <a href="https://tiktok.com/@PLACEHOLDER" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
-                TikTok
-              </a>
-            </li>
-            <li>
-              <a href="https://linkedin.com/company/PLACEHOLDER" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors">
-                LinkedIn
               </a>
             </li>
           </ul>
