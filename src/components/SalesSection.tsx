@@ -36,7 +36,7 @@ const SalesSection = () => (
           Chirp'ü hemen Trendyol üzerinden sipariş verin.
         </p>
         <a
-          href="https://www.trendyol.com/PLACEHOLDER"
+          href="https://www.trendyol.com/magaza/niya-foods-m-1255750"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center px-6 py-3 rounded-lg bg-primary text-primary-foreground font-semibold hover:opacity-90 transition-opacity"
