@@ -4,6 +4,7 @@ import omletImg from "@/assets/recipe-omlet.jpg";
 import menemenImg from "@/assets/recipe-menemen.jpg";
 import sucukluImg from "@/assets/recipe-sucuklu.jpg";
 import quicheImg from "@/assets/recipe-quiche.jpg";
+import frittataImg from "@/assets/recipe-frittata.jpg";
 import { ChevronDown, ChevronUp } from "lucide-react";
 
 interface Recipe {
