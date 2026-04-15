@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import logo from "@/assets/niya-logo.svg";
+import logo from "@/assets/niya-logo.png";
 
 const navLinks = [
   { label: "Ürün", href: "#urun" },
