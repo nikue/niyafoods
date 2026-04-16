@@ -36,9 +36,9 @@ const HeroSection = () => (
           Chirp
         </h1>
         <p className="text-lg md:text-xl text-muted-foreground max-w-lg">
-          Pratik, lezzetli, bitkisel yumurta karışımı. Toz formda, su ekle ve
-          omlet, menemen, scramble veya sucuklu yumurta tariflerini kolayca
-          hazırla.
+          Pratik, lezzetli, bitkisel yumurta tadında karışım. Toz formda, su ekle
+          ve omlet, menemen, scramble veya bitkisel sucuklu yumurta tariflerini
+          kolayca hazırla.
         </p>
 
         <div className="flex flex-wrap gap-2">
