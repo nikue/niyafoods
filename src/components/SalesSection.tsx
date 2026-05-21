@@ -1,13 +1,13 @@
 import { ShoppingBag, Store, Utensils } from "lucide-react";
-import veganIstasyonLogo from "@/assets/vegan-istasyon-logo.png";
+import etikBakkalLogo from "@/assets/etik-bakkal-logo.png";
 import veganRegimeLogo from "@/assets/vegan-regime-logo.png";
 
 const retailers = [
-  { name: "Vegan İstasyon", link: "https://veganistasyon.com", logo: veganIstasyonLogo },
+  { name: "Etik Bakkal", link: "https://etikbakkal.com", logo: etikBakkalLogo },
 ];
 
 const restaurants = [
-  { name: "The Vegan Regime", link: "https://www.veganfoodcartel.com/", logo: veganRegimeLogo },
+  { name: "The Vegan Regime", link: "https://www.theveganregime.com", logo: veganRegimeLogo },
 ];
 
 const SalesSection = () => (
