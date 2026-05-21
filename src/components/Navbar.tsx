@@ -36,9 +36,7 @@ const Navbar = () => {
         </ul>
 
         <a
-          href="https://www.trendyol.com/PLACEHOLDER"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="#satis-noktalari"
           className="hidden md:inline-flex items-center px-5 py-2.5 rounded-lg bg-primary text-primary-foreground text-sm font-semibold hover:opacity-90 transition-opacity"
         >
           Satın Al
@@ -71,9 +69,8 @@ const Navbar = () => {
             ))}
             <li>
               <a
-                href="https://www.trendyol.com/PLACEHOLDER"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#satis-noktalari"
+                onClick={() => setOpen(false)}
                 className="inline-flex mt-2 items-center px-5 py-2.5 rounded-lg bg-primary text-primary-foreground text-sm font-semibold"
               >
                 Satın Al
