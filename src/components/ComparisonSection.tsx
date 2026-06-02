@@ -43,12 +43,12 @@ const ComparisonSection = () => (
   <section id="ozellikler" className="py-16 md:py-24 bg-accent/40">
     <div className="container">
       <h2 className="text-3xl md:text-4xl text-center text-foreground mb-4">
-        Neden Chirp?
+        Neden CHIRP?
       </h2>
       <p className="text-center text-muted-foreground max-w-2xl mx-auto mb-12">
         Omlet, menemen ve scramble gibi yumurta tarzı tariflerde en çok
         kullanılan üç bitkisel alternatifi yan yana karşılaştırdık. Her
-        malzemenin güçlü yanları var — Chirp özellikle pratiklik ve tutarlı
+        malzemenin güçlü yanları var — CHIRP özellikle pratiklik ve tutarlı
         sonuç konusunda öne çıkıyor.
       </p>
 
@@ -58,7 +58,7 @@ const ComparisonSection = () => (
             <tr className="border-b">
               <th className="text-left py-3 pr-4 text-muted-foreground font-medium" />
               <th className="py-3 px-4 font-heading text-lg text-primary">
-                Chirp
+                CHIRP
               </th>
               <th className="py-3 px-4 font-heading text-lg text-muted-foreground">
                 Tofu

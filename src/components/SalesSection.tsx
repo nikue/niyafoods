@@ -17,7 +17,7 @@ const SalesSection = () => (
         Nereden Alınır?
       </h2>
       <p className="text-center text-muted-foreground max-w-xl mx-auto mb-12">
-        Chirp'ü online veya size en yakın satış noktasından temin edebilirsiniz.
+        CHIRP'ü online veya size en yakın satış noktasından temin edebilirsiniz.
       </p>
 
       {/* Trendyol CTA */}
@@ -30,7 +30,7 @@ const SalesSection = () => (
           Trendyol Mağazası
         </h3>
         <p className="text-sm text-muted-foreground mb-4">
-          Chirp'ü hemen Trendyol üzerinden sipariş verin.
+          CHIRP'ü hemen Trendyol üzerinden sipariş verin.
         </p>
         <a
           href="https://www.trendyol.com/magaza/niya-foods-m-1255750"

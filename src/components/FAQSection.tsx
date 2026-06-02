@@ -7,16 +7,16 @@ import {
 
 const faqs = [
   {
-    q: "Chirp nedir?",
-    a: "Chirp, bitkisel kaynaklardan üretilen toz formda bir vegan yumurta karışımıdır. Su eklenerek omlet, menemen, scramble ve benzeri yumurta tarzı tarifler için kullanılabilir.",
+    q: "CHIRP nedir?",
+    a: "CHIRP, bitkisel kaynaklardan üretilen toz formda bir vegan yumurta karışımıdır. Su eklenerek omlet, menemen, scramble ve benzeri yumurta tarzı tarifler için kullanılabilir.",
   },
   {
     q: "Nasıl kullanılır?",
-    a: "Ambalaj üzerindeki ölçülere göre Chirp tozunu suyla karıştırın, birkaç dakika bekletin ve ardından tıpkı yumurta gibi tavada pişirin. Tarifine göre oran ayarlaması yapabilirsiniz.",
+    a: "Ambalaj üzerindeki ölçülere göre CHIRP tozunu suyla karıştırın, birkaç dakika bekletin ve ardından tıpkı yumurta gibi tavada pişirin. Tarifine göre oran ayarlaması yapabilirsiniz.",
   },
   {
     q: "Tofu yerine neden tercih edebilirim?",
-    a: "Tofu harika bir bitkisel protein kaynağıdır. Ancak yumurta taklidi tariflerde Chirp, presleme gerektirmeden doğrudan kullanılabilir ve yumurtaya daha yakın bir kıvam ile lezzet sunar.",
+    a: "Tofu harika bir bitkisel protein kaynağıdır. Ancak yumurta taklidi tariflerde CHIRP, presleme gerektirmeden doğrudan kullanılabilir ve yumurtaya daha yakın bir kıvam ile lezzet sunar.",
   },
   {
     q: "Hangi tariflerde kullanılabilir?",
@@ -24,7 +24,7 @@ const faqs = [
   },
   {
     q: "Nereden satın alabilirim?",
-    a: "Chirp'ü Trendyol mağazamızdan online sipariş edebilirsiniz. Perakende satış noktaları ve iş birliği yapılan restoranlar yakında bu sayfada paylaşılacaktır.",
+    a: "CHIRP'ü Trendyol mağazamızdan online sipariş edebilirsiniz. Perakende satış noktaları ve iş birliği yapılan restoranlar yakında bu sayfada paylaşılacaktır.",
   },
   {
     q: "Saklama koşulları nedir?",

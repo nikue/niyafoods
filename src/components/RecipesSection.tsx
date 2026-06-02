@@ -23,7 +23,7 @@ const recipes: Recipe[] = [
     teaser: "Renkli sebzelerle hafif ve doyurucu bir bitkisel kahvaltı.",
     img: scrambleImg,
     ingredients: [
-      "3 yemek kaşığı (45 ml) Chirp tozu",
+      "3 yemek kaşığı (45 ml) CHIRP tozu",
       "9 yemek kaşığı (135 ml) soğuk su (buzdolabından veya su sebilinden)",
       "1/2 kırmızı biber (küp doğranmış)",
       "1 avuç ıspanak",
@@ -32,7 +32,7 @@ const recipes: Recipe[] = [
       "Tuz, karabiber, zerdeçal",
     ],
     steps: [
-      "Chirp tozunu su ile pürüzsüz olana dek karıştırın.",
+      "CHIRP tozunu su ile pürüzsüz olana dek karıştırın.",
       "Tavada zeytinyağını kızdırın, sebzeleri 2-3 dk soteleyin.",
       "Karışımı ekleyin, spatula ile karıştırarak scramble kıvamına getirin.",
       "Baharatlarla tatlandırıp sıcak servis edin.",
@@ -44,7 +44,7 @@ const recipes: Recipe[] = [
     teaser: "Altın rengi, kabarık ve peynirli — klasik omletin bitkisel hali.",
     img: omletImg,
     ingredients: [
-      "4 yemek kaşığı (60 ml) Chirp tozu",
+      "4 yemek kaşığı (60 ml) CHIRP tozu",
       "12 yemek kaşığı (180 ml) soğuk su (buzdolabından veya su sebilinden)",
       "5-6 mantar (dilimlenmiş)",
       "2 yemek kaşığı vegan peynir (rendelenmiş)",
@@ -52,7 +52,7 @@ const recipes: Recipe[] = [
       "Tuz, karabiber",
     ],
     steps: [
-      "Chirp tozunu su ile iyice çırpın.",
+      "CHIRP tozunu su ile iyice çırpın.",
       "Tavada yağı kızdırıp mantarları soteleyin, kenara alın.",
       "Aynı tavaya karışımı dökün, kısık ateşte pişirin.",
       "Üzerine mantar ve vegan peynir ekleyip ikiye katlayın.",
@@ -65,7 +65,7 @@ const recipes: Recipe[] = [
     teaser: "Türk kahvaltısının vazgeçilmezi, bitkisel versiyonuyla.",
     img: menemenImg,
     ingredients: [
-      "3 yemek kaşığı (45 ml) Chirp tozu",
+      "3 yemek kaşığı (45 ml) CHIRP tozu",
       "9 yemek kaşığı (135 ml) soğuk su (buzdolabından veya su sebilinden)",
       "2 domates (küp doğranmış)",
       "2 sivri biber (ince doğranmış)",
@@ -76,7 +76,7 @@ const recipes: Recipe[] = [
     steps: [
       "Soğan ve biberleri zeytinyağında kavurun.",
       "Domatesleri ekleyin, suyunu salıp yumuşayana dek pişirin.",
-      "Chirp tozunu su ile karıştırıp tavaya ekleyin.",
+      "CHIRP tozunu su ile karıştırıp tavaya ekleyin.",
       "Karıştırarak menemen kıvamına getirin, pul biber serpin.",
     ],
   },
@@ -86,7 +86,7 @@ const recipes: Recipe[] = [
     teaser: "Baharatlı vegan sucukla buluşan klasik lezzet.",
     img: sucukluImg,
     ingredients: [
-      "3 yemek kaşığı (45 ml) Chirp tozu",
+      "3 yemek kaşığı (45 ml) CHIRP tozu",
       "9 yemek kaşığı (135 ml) soğuk su (buzdolabından veya su sebilinden)",
       "4-5 dilim vegan sucuk",
       "1 yemek kaşığı zeytinyağı",
@@ -94,7 +94,7 @@ const recipes: Recipe[] = [
     ],
     steps: [
       "Vegan sucuğu tavada her iki yüzü kızarana dek pişirin.",
-      "Chirp tozunu su ile çırpın.",
+      "CHIRP tozunu su ile çırpın.",
       "Sucukların arasına karışımı dökün.",
       "Kısık ateşte, hafif karıştırarak pişirin.",
       "Pul biber ve kekik ile servis edin.",
@@ -106,7 +106,7 @@ const recipes: Recipe[] = [
     teaser: "Brunch sofralarının yıldızı, çıtır hamurda bitkisel dolgu.",
     img: quicheImg,
     ingredients: [
-      "5 yemek kaşığı (75 ml) Chirp tozu",
+      "5 yemek kaşığı (75 ml) CHIRP tozu",
       "15 yemek kaşığı (225 ml) soğuk su (buzdolabından veya su sebilinden)",
       "100 ml bitkisel krema",
       "1 hazır kiş hamuru",
@@ -116,7 +116,7 @@ const recipes: Recipe[] = [
     steps: [
       "Fırını 180°C'ye ısıtın. Hamuru kalıba yerleştirin.",
       "Sebzeleri küçük doğrayıp hafifçe soteleyin.",
-      "Chirp tozunu su ve bitkisel krema ile karıştırın.",
+      "CHIRP tozunu su ve bitkisel krema ile karıştırın.",
       "Sebzeleri hamura yerleştirin, karışımı üzerine dökün.",
       "30-35 dk altın rengi olana dek pişirin.",
     ],
@@ -127,7 +127,7 @@ const recipes: Recipe[] = [
     teaser: "Fırında pişen, kabarık ve sebze dolu bitkisel frittata.",
     img: frittataImg,
     ingredients: [
-      "4 yemek kaşığı (60 ml) Chirp tozu",
+      "4 yemek kaşığı (60 ml) CHIRP tozu",
       "12 yemek kaşığı (180 ml) soğuk su (buzdolabından veya su sebilinden)",
       "1 avuç ıspanak",
       "6-7 cherry domates (ikiye bölünmüş)",
@@ -138,10 +138,10 @@ const recipes: Recipe[] = [
     ],
     steps: [
       "Fırını 180°C'ye ısıtın.",
-      "Chirp tozunu su ile pürüzsüz olana dek çırpın.",
+      "CHIRP tozunu su ile pürüzsüz olana dek çırpın.",
       "Fırına girebilen tavada zeytinyağını kızdırıp soğan ve biberi 2 dk soteleyin.",
       "Ispanak ve domatesleri ekleyip 1 dk daha karıştırın.",
-      "Chirp karışımını sebzelerin üzerine dökün, baharatları ekleyin.",
+      "CHIRP karışımını sebzelerin üzerine dökün, baharatları ekleyin.",
       "Tavayı fırına verin, 15-20 dk kabarıp altın rengi olana dek pişirin.",
     ],
   },
@@ -157,7 +157,7 @@ const RecipesSection = () => {
           Tarif İlhamı
         </h2>
         <p className="text-center text-muted-foreground max-w-xl mx-auto mb-12">
-          Chirp ile hazırlayabileceğiniz lezzetli tarifler.
+          CHIRP ile hazırlayabileceğiniz lezzetli tarifler.
         </p>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">

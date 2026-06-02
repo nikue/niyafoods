@@ -37,7 +37,7 @@ const FeaturesSection = () => (
   <section id="ozellikler" className="py-16 md:py-24">
     <div className="container">
       <h2 className="text-3xl md:text-4xl text-center text-foreground mb-4">
-        Neden Chirp?
+        Neden CHIRP?
       </h2>
       <p className="text-center text-muted-foreground max-w-xl mx-auto mb-12">
         Pratikliğiyle mutfağınızda yeni bir dönem başlatan bitkisel yumurta

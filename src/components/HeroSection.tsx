@@ -19,21 +19,21 @@ const HeroSection = () => (
       <div className="relative flex flex-col items-center gap-6">
         <img
           src={heroImg}
-          alt="Chirp bitkisel yumurta karışımı ile hazırlanmış lezzetli bir kahvaltı tabağı"
+          alt="CHIRP bitkisel yumurta karışımı ile hazırlanmış lezzetli bir kahvaltı tabağı"
           width={1280}
           height={960}
           className="rounded-2xl shadow-lg object-cover w-full aspect-[4/3]"
         />
         <img
           src={packageImg}
-          alt="Chirp bitkisel yumurta karışımı ambalajı"
+          alt="CHIRP bitkisel yumurta karışımı ambalajı"
           className="absolute -bottom-8 -left-4 w-32 md:w-44 drop-shadow-2xl object-contain"
         />
       </div>
 
       <div className="space-y-6">
         <h1 className="text-4xl md:text-5xl lg:text-6xl leading-tight text-foreground">
-          Chirp
+          CHIRP
         </h1>
         <p className="text-lg md:text-xl text-muted-foreground max-w-lg">
           Pratik, lezzetli, bitkisel yumurta tadında karışım. Toz formda, su ekle
