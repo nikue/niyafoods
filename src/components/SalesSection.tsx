@@ -64,7 +64,7 @@ const SalesSection = () => (
                 href={r.link}
                 target={r.link.startsWith("http") ? "_blank" : undefined}
                 rel={r.link.startsWith("http") ? "noopener noreferrer" : undefined}
-                className="flex items-center justify-center p-4 rounded-lg bg-card border hover:shadow-md transition-shadow"
+                className="flex items-center justify-center p-4 rounded-lg bg-card border hover:shadow-md transition-shadow h-24 md:h-28"
               >
                 {r.logo ? (
                   <img src={r.logo} alt={r.name} className={`${(r as any).sizeClass ?? "h-16 md:h-20"} w-auto object-contain`} loading="lazy" />
