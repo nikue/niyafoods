@@ -7,7 +7,7 @@ import veganRegimeLogo from "@/assets/vegan-regime-logo.png";
 
 const retailers = [
   { name: "Etik Bakkal", link: "https://etikbakkal.com", logo: etikBakkalLogo },
-  { name: "Vegan Bakkal", link: "https://www.veganbakkal.com.tr", logo: veganBakkalLogo },
+  { name: "Vegan Bakkal", link: "https://www.veganbakkal.com.tr", logo: veganBakkalLogo, sizeClass: "h-8 md:h-10" },
   { name: "Vegan İstasyon", link: "https://veganistasyon.com", logo: veganIstasyonLogo },
   { name: "Vegan Pazaryeri", link: "https://veganpazaryeri.com", logo: veganPazaryeriLogo },
 ];
@@ -67,7 +67,8 @@ const SalesSection = () => (
                 className="flex items-center justify-center p-4 rounded-lg bg-card border hover:shadow-md transition-shadow"
               >
                 {r.logo ? (
-                  <img src={r.logo} alt={r.name} className="h-16 md:h-20 w-auto object-contain" loading="lazy" />
+                  <img src={r.logo} alt={r.name} className={`${(r as any).sizeClass ?? "h-16 md:h-20"} w-auto object-contain`} loading="lazy" />
+
                 ) : (
                   <p className="font-medium text-muted-foreground">{r.name}</p>
                 )}
