@@ -1,11 +1,13 @@
 import { ShoppingBag, Store, Utensils } from "lucide-react";
 import etikBakkalLogo from "@/assets/etik-bakkal-logo.png";
+import veganBakkalLogo from "@/assets/vegan-bakkal-logo.png";
 import veganIstasyonLogo from "@/assets/vegan-istasyon-logo.png";
 import veganPazaryeriLogo from "@/assets/vegan-pazaryeri-logo.png";
 import veganRegimeLogo from "@/assets/vegan-regime-logo.png";
 
 const retailers = [
   { name: "Etik Bakkal", link: "https://etikbakkal.com", logo: etikBakkalLogo },
+  { name: "Vegan Bakkal", link: "https://www.veganbakkal.com.tr", logo: veganBakkalLogo },
   { name: "Vegan İstasyon", link: "https://veganistasyon.com", logo: veganIstasyonLogo },
   { name: "Vegan Pazaryeri", link: "https://veganpazaryeri.com", logo: veganPazaryeriLogo },
 ];
