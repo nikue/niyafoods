@@ -6,7 +6,7 @@ import veganPazaryeriLogo from "@/assets/vegan-pazaryeri-logo.png";
 import veganRegimeLogo from "@/assets/vegan-regime-logo.png";
 
 const retailers = [
-  { name: "Etik Bakkal", link: "https://etikbakkal.com", logo: etikBakkalLogo },
+  { name: "Etik Bakkal", link: "https://etikbakkal.com/urun/niya-foods-chirp-yumurta-ikamesi-90gr/", logo: etikBakkalLogo },
   { name: "Vegan Bakkal", link: "https://www.veganbakkal.com.tr", logo: veganBakkalLogo, sizeClass: "h-8 md:h-10" },
   { name: "Vegan İstasyon", link: "https://veganistasyon.com/niya-foods-chirp-bitkisel-yumurta-ikamesi-90-g", logo: veganIstasyonLogo },
   { name: "Vegan Pazaryeri", link: "https://veganpazaryeri.com", logo: veganPazaryeriLogo },
