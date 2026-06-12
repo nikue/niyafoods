@@ -15,6 +15,7 @@ const retailers = [
 
 const restaurants = [
   { name: "The Vegan Regime", link: "https://www.theveganregime.com", logo: veganRegimeLogo },
+  { name: "Vegan Istanbul", link: "https://www.veganistanbul.com", logo: veganIstanbulLogo },
 ];
 
 const SalesSection = () => (
