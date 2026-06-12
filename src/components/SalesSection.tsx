@@ -2,6 +2,7 @@ import { ShoppingBag, Store, Utensils } from "lucide-react";
 import etikBakkalLogo from "@/assets/etik-bakkal-logo.png";
 import veganBakkalLogo from "@/assets/vegan-bakkal-logo.png";
 import veganIstasyonLogo from "@/assets/vegan-istasyon-logo.png";
+import veganIstanbulLogo from "@/assets/vegan-istanbul-logo.png";
 import veganPazaryeriLogo from "@/assets/vegan-pazaryeri-logo.png";
 import veganRegimeLogo from "@/assets/vegan-regime-logo.png";
 
