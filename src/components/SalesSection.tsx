@@ -1,6 +1,7 @@
 import { ShoppingBag, Store, Utensils } from "lucide-react";
 import etikBakkalLogo from "@/assets/etik-bakkal-logo.png";
 import veganBakkalLogo from "@/assets/vegan-bakkal-logo.png";
+import veganDukkanLogo from "@/assets/vegan-dukkan-logo.png";
 import veganIstasyonLogo from "@/assets/vegan-istasyon-logo.png";
 import veganIstanbulLogo from "@/assets/vegan-istanbul-logo.png";
 import veganPazaryeriLogo from "@/assets/vegan-pazaryeri-logo.png";
@@ -10,6 +11,7 @@ const retailers = [
   { name: "Etik Bakkal", link: "https://etikbakkal.com/urun/niya-foods-chirp-yumurta-ikamesi-90gr/", logo: etikBakkalLogo },
   { name: "Vegan İstasyon", link: "https://veganistasyon.com/niya-foods-chirp-bitkisel-yumurta-ikamesi-90-g", logo: veganIstasyonLogo },
   { name: "Vegan Pazaryeri", link: "https://veganpazaryeri.com/niya-foods", logo: veganPazaryeriLogo },
+  { name: "Vegan Dükkan", link: "https://vegandukkan.com", logo: veganDukkanLogo },
   { name: "Vegan Bakkal", link: "https://www.veganbakkal.com.tr", logo: veganBakkalLogo, sizeClass: "h-8 md:h-10" },
 ];
 
