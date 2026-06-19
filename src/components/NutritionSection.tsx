@@ -22,6 +22,13 @@ const NutritionSection = () => (
         <div className="rounded-lg border bg-card p-6">
           <h3 className="font-heading text-xl text-primary mb-3">İçindekiler</h3>
           <p className="text-foreground leading-relaxed">{ingredients}</p>
+          <p className="text-foreground leading-relaxed mt-4">
+            CHIRP yüksek proteinli, yağsız ve tamamen bitkisel bir yumurta
+            alternatifidir. Yaygın alerjenler içermez; rengini doğal
+            beta-karotenden, yumurtamsı aromasını ise kala namak ve besin
+            mayasından alır. Sade içeriğiyle kahvaltılarda, tariflerde ve
+            profesyonel mutfaklarda pratik bir çözüm sunar.
+          </p>
         </div>
 
         <div className="rounded-lg border bg-card p-6">
