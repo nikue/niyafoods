@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import chirpPackage from "@/assets/chirp-package.png";
+import whitePackage from "@/assets/white-package.png.asset.json";
 
 const products = [
   {
@@ -10,6 +11,15 @@ const products = [
       "Toz formda, pratik bir vegan yumurta alternatifi. Su ekleyin; omlet, menemen, scramble ve daha fazlasını hazırlayın.",
     image: chirpPackage,
     to: "/chirp",
+    available: true,
+  },
+  {
+    name: "WHITE",
+    tagline: "Seitan Toz Karışımı",
+    description:
+      "Beyaz et tadında, yüksek proteinli bitkisel seitan karışımı. 15 dakikada, porsiyon başına 34g protein.",
+    image: whitePackage.url,
+    to: "/white",
     available: true,
   },
 ];
