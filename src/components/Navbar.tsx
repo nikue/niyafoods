@@ -1,14 +1,14 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import { Link } from "react-router-dom";
 import logo from "@/assets/niya-logo.png";
 
 const navLinks = [
-  { label: "Ürün", href: "#urun" },
-  { label: "Özellikler", href: "#ozellikler" },
-  { label: "Tarifler", href: "#tarifler" },
-  { label: "Satış Noktaları", href: "#satis-noktalari" },
-  { label: "SSS", href: "#sss" },
-  { label: "İletişim", href: "#iletisim" },
+  { label: "Ana Sayfa", href: "/" },
+  { label: "Ürünler", href: "/#urunler" },
+  { label: "CHIRP", href: "/chirp" },
+  { label: "Satış Noktaları", href: "/#satis-noktalari" },
+  { label: "İletişim", href: "/#iletisim" },
 ];
 
 const Navbar = () => {
@@ -17,9 +17,9 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b">
       <div className="container flex items-center justify-between h-16">
-        <a href="https://www.niyafoods.com" target="_blank" rel="noopener noreferrer">
+        <Link to="/">
           <img src={logo} alt="Niya Foods" className="h-8" />
-        </a>
+        </Link>
 
         {/* Desktop */}
         <ul className="hidden md:flex items-center gap-8">
@@ -36,7 +36,7 @@ const Navbar = () => {
         </ul>
 
         <a
-          href="#satis-noktalari"
+          href="/#satis-noktalari"
           className="hidden md:inline-flex items-center px-5 py-2.5 rounded-lg bg-primary text-primary-foreground text-sm font-semibold hover:opacity-90 transition-opacity"
         >
           Satın Al
@@ -69,7 +69,7 @@ const Navbar = () => {
             ))}
             <li>
               <a
-                href="#satis-noktalari"
+                href="/#satis-noktalari"
                 onClick={() => setOpen(false)}
                 className="inline-flex mt-2 items-center px-5 py-2.5 rounded-lg bg-primary text-primary-foreground text-sm font-semibold"
               >
