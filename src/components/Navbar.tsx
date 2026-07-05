@@ -7,6 +7,7 @@ const navLinks = [
   { label: "Ana Sayfa", href: "/" },
   { label: "Ürünler", href: "/#urunler" },
   { label: "CHIRP", href: "/chirp" },
+  { label: "WHITE", href: "/white" },
   { label: "Satış Noktaları", href: "/#satis-noktalari" },
   { label: "İletişim", href: "/#iletisim" },
 ];
