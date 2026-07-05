@@ -12,11 +12,10 @@ const Footer = () => (
         <div>
           <h4 className="font-semibold text-foreground mb-3 text-sm">Hızlı Bağlantılar</h4>
           <ul className="space-y-1.5 text-sm text-muted-foreground">
-            <li><a href="#urun" className="hover:text-foreground transition-colors">Ürün</a></li>
-            <li><a href="#ozellikler" className="hover:text-foreground transition-colors">Özellikler</a></li>
-            <li><a href="#tarifler" className="hover:text-foreground transition-colors">Tarifler</a></li>
-            <li><a href="#satis-noktalari" className="hover:text-foreground transition-colors">Satış Noktaları</a></li>
-            <li><a href="#sss" className="hover:text-foreground transition-colors">SSS</a></li>
+            <li><a href="/" className="hover:text-foreground transition-colors">Ana Sayfa</a></li>
+            <li><a href="/#urunler" className="hover:text-foreground transition-colors">Ürünler</a></li>
+            <li><a href="/chirp" className="hover:text-foreground transition-colors">CHIRP</a></li>
+            <li><a href="/#satis-noktalari" className="hover:text-foreground transition-colors">Satış Noktaları</a></li>
           </ul>
         </div>
 
