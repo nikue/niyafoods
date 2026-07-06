@@ -14,7 +14,7 @@ const Footer = () => (
           <ul className="space-y-1.5 text-sm text-muted-foreground">
             <li><a href="/" className="hover:text-foreground transition-colors">Ana Sayfa</a></li>
             <li><a href="/#urunler" className="hover:text-foreground transition-colors">Ürünler</a></li>
-            <li><a href="/chirp" className="hover:text-foreground transition-colors">CHIRP</a></li>
+            
             <li><a href="/#satis-noktalari" className="hover:text-foreground transition-colors">Satış Noktaları</a></li>
           </ul>
         </div>
