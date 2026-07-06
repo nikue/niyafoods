@@ -3,7 +3,7 @@ import whitePan from "@/assets/white-pan-seitan.jpg.asset.json";
 import { Leaf, Clock, Dumbbell, MapPin } from "lucide-react";
 
 const badges = [
-  { icon: Dumbbell, label: "Porsiyon başına 34g Protein" },
+  { icon: Dumbbell, label: "Porsiyon başına 51g Protein" },
   { icon: Clock, label: "15 Dakikada Hazır" },
   { icon: Leaf, label: "Vegan" },
   { icon: MapPin, label: "Yerli Üretim" },
@@ -37,7 +37,7 @@ const WhiteHeroSection = () => (
         </h1>
         <p className="text-lg md:text-xl text-muted-foreground max-w-lg">
           Beyaz et tadında, yüksek proteinli bitkisel seitan toz karışımı. Su
-          ekle, yoğur, tavada pişir — 15 dakikada porsiyon başına 34g protein
+          ekle, yoğur, tavada pişir — 15 dakikada porsiyon başına 51g protein
           içeren, ekonomik ve pratik bir vegan alternatif.
         </p>
 
