@@ -23,8 +23,8 @@ const Footer = () => (
           <h4 className="font-semibold text-foreground mb-3 text-sm">İletişim</h4>
           <ul className="space-y-1.5 text-sm text-muted-foreground">
             <li>
-              <a href="mailto:info@niyafoods.com" className="hover:text-foreground transition-colors">
-                info@niyafoods.com
+              <a href="mailto:info@veganzza.com.tr" className="hover:text-foreground transition-colors">
+                info@veganzza.com.tr
               </a>
             </li>
             <li>
